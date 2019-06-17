@@ -1,0 +1,23 @@
+
+.ui-draggable, .ui-droppable
+{
+    background-position: top;
+}
+.custom-combobox , .custom-comboboxTwo
+{
+    position: relative;
+    display: inline-block;
+}
+.custom-combobox-toggle, .custom-comboboxTwo-toggle
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input , .custom-comboboxTwo-input
+{
+    margin: 0;
+    padding: 0.3em;
+}

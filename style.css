@@ -1,0 +1,216 @@
+header
+{
+    position: relative;
+    width: 100%;
+}
+
+.set
+{
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+.title
+{
+    font-family: DFKai-sb;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 5%;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+.img
+{
+    position: relative;
+    width: 100%;
+    -webkit-filter: brightness(.5);
+}
+
+.option
+{
+    font-weight: bold;
+    font-size: 15px;
+    border: 5px lightskyblue solid;
+    display: inline-block;
+    padding: 2px;
+    background-color: lightskyblue;
+}
+
+ul
+{
+    font-family: DFKai-sb;
+    list-style: none;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+ul li
+{
+    display: inline;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.searchBox
+{
+    font-family: DFKai-sb;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 30%;
+    top: 45%;
+}
+
+.searchBoxTwo
+{
+    font-family: DFKai-sb;
+    font-size: 20px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    left: 75%;
+    top: 10%;
+}
+
+.search
+{
+    font-family: DFKai-sb;
+    font-size: 20px;
+    background-color: lightskyblue;
+    padding: 5px 32px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    right: 32%;
+    top: 45%;
+}
+.searchTwo
+{
+    font-family: DFKai-sb;
+    font-size: 20px;
+    background-color: lightskyblue;
+
+    height: 48px;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    right: 32%;
+    top: 88%;
+}
+
+p
+{
+	font-family: DFKai-sb;
+}
+
+div.frame	/*表格外框*/
+{
+	border-style: solid;
+	border-color: #00e3e3;
+	margin-top: 10px;
+	display: inline-block;
+	width: 30%;
+	font-family: DFKai-sb;
+}
+
+table thead tr td
+{
+	border-bottom-style: solid;
+	border-bottom-color: rgb(211, 202, 221);
+	font-size: 20px;
+	font-family: DFKai-sb;
+}
+
+table
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top-style: solid;
+	border-top-color: rgb(211, 202, 221);
+	border-bottom-style: solid;
+	border-bottom-color: rgb(211, 202, 221);
+}
+
+table tbody tr:nth-child(even)
+{
+	background-color: rgb(223, 216, 232)
+}
+
+table td
+{
+	padding: 5px 110px;
+	text-align: center;
+}
+
+table tbody tr td.detail	/*搜尋後點選詳細結果*/
+{
+	font-family: DFKai-sb;
+	text-align: left;
+	font-size: 20px;
+}
+
+a.searchResult	/*搜尋結果*/
+{
+    color: blue;
+    font-family: DFKai-sb;
+    font-size: 20px;
+}
+
+a.searchResult:hover
+{
+	color: orange;
+}
+
+table.standard
+{
+	margin-bottom: 15px;
+}
+
+table.standard td
+{
+	padding: 10px 30px;
+	font-size: 20px;
+	font-family: DFKai-sb;
+}
+
+.inputStd
+{
+	font-family: DFKai-sb;
+	font-size: 15px;
+	margin-left: 200px;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+	background-color: skyblue;
+}
+
+.myLove a
+{
+	color: blue;
+}
+
+.myLove a:hover
+{
+	color: orange;
+}
+
+table.myLove
+{
+	margin-bottom: 30px;
+	border-top: none;
+	font-size: 20px;
+	padding: 10px 0px;
+}
